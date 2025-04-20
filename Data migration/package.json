@@ -1,0 +1,11 @@
+{
+    "name": "shop-inventory-migration",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "migrate": "node runMigration.js"
+    },
+    "dependencies": {
+        "firebase": "^11.1.0"
+    }
+}
