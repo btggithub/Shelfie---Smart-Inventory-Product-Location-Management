@@ -1,36 +1,210 @@
-# Shop Inventory Management System
+# Shelfie - Smart Inventory & Product Location Management Platform
 
-A React-based inventory management system with Firebase integration for tracking products across multiple locations.
+A modern inventory and product location management platform built to help retail stores quickly locate products, manage inventory organization, and maintain accurate location tracking across multiple storage areas.
 
-## Technology Stack
-- Frontend: React, Tailwind CSS
-- Backend: Firebase (Firestore, Authentication)
-- Build: Create React App
-- Testing: Jest
+Originally developed to solve real-world product discovery challenges inside a retail environment, Shelfie enables staff to find products in seconds rather than manually searching shelves, showcases, racks, and display locations.
+
+---
+
+## Business Problem
+
+As product variety grows, retailers often struggle with:
+
+- Locating products quickly
+- Managing display locations
+- Tracking inventory organization
+- Maintaining category structures
+- Onboarding new staff unfamiliar with store layouts
+
+Shelfie addresses these challenges through a centralized product location management platform.
+
+---
 
 ## Key Features
-- Location-based product tracking
-- Product movement history
-- Category management
-- User authentication
 
-## Project Structure
+### Product Search & Inventory Finder
 
+- Instant product search
+- Category filtering
+- Product location lookup
+- Location hierarchy navigation
+
+![Inventory Finder](screenshots/inventory-finder.png)
+
+---
+
+### Product Management
+
+- Add individual products
+- Edit product details
+- Assign categories
+- Associate products with precise locations
+
+![Add Product](screenshots/add-product.png)
+
+---
+
+### Bulk Product Import
+
+- CSV upload support
+- Rapid inventory onboarding
+- Template-based imports
+- Validation and error handling
+
+![Bulk Upload](screenshots/bulk-upload.png)
+
+---
+
+### Location Management
+
+Supports multiple location types:
+
+- Shelves
+- Showcases
+- Strings
+- Tables
+- Display Areas
+- Custom Locations
+
+Store administrators can create, modify, and organize locations dynamically.
+
+![Location Management](screenshots/location-management.png)
+
+---
+
+### Category Management
+
+- Category creation
+- Category maintenance
+- Category enable/disable
+- Product grouping
+
+![Category Management](screenshots/category-management.png)
+
+---
+
+### Product Location Visualization
+
+View all products stored within a selected location.
+
+Benefits:
+
+- Faster stock retrieval
+- Better display organization
+- Improved inventory accuracy
+
+![Location View](screenshots/location-view.png)
+
+---
+
+## Technology Stack
+
+### Frontend
+
+- React
+- Tailwind CSS
+
+### Backend Services
+
+- Firebase Authentication
+- Firestore Database
+
+### Deployment
+
+- Firebase Hosting
+
+---
+
+## Architecture
+
+```text
+React Frontend
+        |
+        |
+Firebase Authentication
+        |
+        |
+Firestore Database
+        |
+        |
+Product Locations
+Categories
+Inventory Records
+Movement History
 ```
-shop-inventory/
-├── public/                  # Static assets
-├── src/
-│   ├── components/          # Reusable UI components
-│   ├── lib/                 # Utility functions
-│   ├── App.js               # Main application component
-│   ├── firebase.js          # Firebase configuration
-│   ├── ShopInventoryMain.js # Core inventory management
-│   ├── LocationManager.js   # Location management
-│   ├── CategoryManager.js   # Category management
-│   └── ...                  # Other feature files
-├── Data migration/          # Data migration scripts
-└── baCKUP/                  # Backup files
-```
+Core Functional Areas
+Inventory Management
+
+Manage products and inventory records.
+
+Product Location Tracking
+
+Track exactly where products are displayed or stored.
+
+Category Management
+
+Organize products into logical groups.
+
+Bulk Import Processing
+
+Quickly onboard large product catalogs.
+
+User Authentication
+
+Secure access using Firebase Authentication.
+
+Example Location Structure
+Store
+│
+├── Shelves
+│   ├── Left Wall Shelf 1
+│   ├── Left Wall Shelf 2
+│   └── Right Wall Shelf 1
+│
+├── Showcases
+│   ├── Main Showcase
+│   │   ├── Top Section
+│   │   ├── Left Column
+│   │   └── Right Column
+│
+└── Strings
+    ├── String 1
+    ├── String 2
+    └── String 3
+
+
+Real-World Use Cases
+Gift Shops
+Toy Stores
+Jewellery Stores
+Boutique Retailers
+Hobby Stores
+Department Stores
+Warehouse Display Areas
+Future Enhancements
+Barcode Scanning
+QR Code Product Lookup
+Inventory Stock Levels
+Mobile Application
+Product Analytics Dashboard
+Product Movement Audit Trail
+Author
+
+Balaji T.
+
+Enterprise Application Modernization Specialist
+
+Upwork:
+https://www.upwork.com/freelancers/~017c0176f6371f83c1?viewMode=1
+
+GitHub:
+https://github.com/btggithub
+
+Project Status
+
+✅ Active Open Source Project
+
+This project demonstrates practical inventory management, product location tracking, React development, Firebase integration, and business application design.
 
 ## Key Components
 
