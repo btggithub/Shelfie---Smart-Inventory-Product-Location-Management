@@ -241,12 +241,8 @@ Core inventory management component that:
      REACT_APP_FIREBASE_APP_ID=your_app_id
      REACT_APP_FIREBASE_MEASUREMENT_ID=your_measurement_id
      ```
-   - Do NOT commit your `.env` file to version control.
+
 4. Start development server: `npm start`
-
-## Data Privacy and PII Handling
-
-Please be mindful of personally identifiable information (PII) when using this application. Avoid including sensitive customer data in the database or shared exports. When open sourcing, ensure any sample or test data is anonymized to protect privacy.
 
 ## Data Flow
 
