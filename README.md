@@ -6,6 +6,10 @@ Originally developed to solve real-world product discovery challenges inside a r
 
 ---
 
+## Live Demo
+
+Coming Soon
+
 ## Business Problem
 
 As product variety grows, retailers often struggle with:
@@ -94,6 +98,31 @@ Benefits:
 - Improved inventory accuracy
 
 ![Location View](screenshots/location-view.png)
+
+---
+## Business Value
+
+Shelfie helps retail businesses:
+
+- Reduce product search time
+- Improve customer service
+- Simplify staff onboarding
+- Organize physical inventory
+- Reduce misplaced inventory
+- Improve inventory accuracy
+---
+
+## Project Highlights
+
+- React
+- Firebase Authentication
+- Firestore Database
+- CSV Bulk Import
+- Product Search
+- Dynamic Categories
+- Dynamic Locations
+- Responsive UI
+- Real-world retail use case
 
 ---
 
